@@ -1,0 +1,6 @@
+id=adb_wifi_auto
+name=ADB over Wi-Fi
+version=1.0
+versionCode=1
+author=dimka
+description=Enable ADB over Wi-Fi (port 5555) on boot using Magisk service script

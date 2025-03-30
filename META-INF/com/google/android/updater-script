@@ -1,0 +1,2 @@
+#MAGISK
+ui_print("ADB over Wi-Fi Magisk Module Installed.");

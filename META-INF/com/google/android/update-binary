@@ -1,0 +1,11 @@
+#!/sbin/sh
+ui_print() {
+  echo -e "ui_print $1\nui_print" >> /tmp/update_binary_log
+}
+ui_print "****************************************"
+ui_print " ADB over Wi-Fi Magisk Module"
+ui_print " Installing via recovery..."
+ui_print "****************************************"
+unzip -o "$3" -x META-INF/* -d /data/adb/modules/adb_wifi_auto
+ui_print "Installation complete. Reboot required."
+exit 0
